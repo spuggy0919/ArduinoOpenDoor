@@ -21,9 +21,13 @@
 ![RTC3231接線](3-RTC3231/rtccir.png)
 
 
+
 ## 4-繼電器控制
-   控制繼電器((Relay)
+   控制繼電器((Relay) 我是用1-Channel Relay, High Active, 直接把Pin D8 接到繼電器的, 鐵門遙控器上的按鍵接點分別街繼電器的長開及Common Pin.
+
+![繼電器控](4-RelayControl/relay.png)
 ![繼電器控制捲門遙控器連接](4-RelayControl/PIC.JPG)
+*注意*要把D8 直接接繼電器 IN, 可以忽略HCSR501 和 NPN 
 
 ## 5-Timer計時中斷篇
 這個部分目前沒有說明，有一個Arduino nano完整範例，完成所有整合加上使用者介面的應用範例。 提供下列功能：
