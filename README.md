@@ -1,6 +1,7 @@
-# ArduinoTutorial
+# ArduinopenDoor
 
-這一系列主要用Arduino nano做一個自動鬧鐘開門系統
+
+這一系列主要用Arduino nano做一個自動鬧鐘開鐵捲門系統
 
 
 # 自動鬧鐘鐵捲門開門系統
